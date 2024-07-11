@@ -9,7 +9,12 @@
 }
 
 #logo {
+    background-color: black;
     background-image: url(../images/);
+    background-repeat:  no-repeat;
+    background-position: center;
+    width: 350px;
+    height: 350px;
 }
 
 /*****************NAV*****************/
