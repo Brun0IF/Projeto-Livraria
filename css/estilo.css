@@ -25,7 +25,8 @@
 
 /*****************MAIN*****************/
 .destaques, .produtos, .sobre {
-    background-color: #b8b8b8;
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(62,62,162,1) 35%, rgba(0,255,214,1) 100%);
 }
 
 
