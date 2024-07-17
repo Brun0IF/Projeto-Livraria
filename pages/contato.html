@@ -25,20 +25,41 @@
 
     <main class="contato">
         <form action="">
-            <input type="text" name="nome" id="">Nome <br>
-            <input type="email" name="" id="">Email <br>
-            <input type="text" name="telefone" id="">Telefone <br>
-            <label for="assunto">Assunto</label>
-            <select name="assunto" id="">
-                <option value="">Trocas</option>
-                <option value="">Atendimento</option>
-                <option value="">Comercial</option>
-                <option value="">Outros</option>
-            </select> <br>
-            <input type="text" name="mensagem" id="">Mensagem <br>
-            <input type="checkbox" name="" id=""> Desejo receber informações sobre a Livraria São João <br>
-            <input type="submit" value=""> Enviar
-            <input type="reset" value=""> Resetar
+            <fieldset>
+                <legend>Contate-nos</legend>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="">
+                </div> 
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="" id="email" placeholder="Digite seu e-mail"> 
+                </div>
+                <div>
+                    <label for="telefone"></label>Telefone
+                    <input type="text" name="telefone" id=""> <br>
+                </div>
+                <div>
+                    <label for="assunto">Assunto</label>
+                    <select name="assunto" id="" >
+                    <option value="">Trocas</option>
+                    <option value="">Atendimento</option>
+                    <option value="">Comercial</option>
+                    <option value="">Outros</option>
+                </select> <br>
+                </div>
+                <div>
+                    <label for="mens">Deixe seu Recado</label>
+                    <textarea name="mens" id="mens" cols="30" rows="10"></textarea> <br>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id=""> Desejo receber informações sobre a Livraria São João <br>
+                </div>
+                <div>
+                    <input type="submit" value=""> Enviar
+                    <input type="reset" value=""> Resetar
+                </div>
+            </fieldset>
 
         </form>
         
