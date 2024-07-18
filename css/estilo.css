@@ -51,6 +51,21 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(62,62,162,1) 35%, rgba
     text-decoration: solid;
 }
 
+a {
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: antiquewhite;
+}
+
+a:hover {
+    background-color: black;
+    color: yellow;
+    font-size: 30px;
+}
+
 /*****************PROPRIEDADES DE FONTES*****************/
 /* font-family - altera família de fontes
 /* font-style - Deixa a fonte itálica
