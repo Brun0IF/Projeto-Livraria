@@ -2,7 +2,7 @@
     margin: 5px;
     padding: 5px;
     box-sizing: border-box;
-    display: flexbox;
+
     font-family: 'Typewriter';
 }
 
@@ -15,13 +15,16 @@
 #topo {
     background: rgb(44,54,57);
     background: linear-gradient(180deg, rgba(44,54,57,1) 0%, rgba(50,76,84,1) 61%, rgba(162,123,92,1) 100%);
+    justify-content: flex-start;
+}
+
+#titulo {
+    width: max-content; height: max-content;
     text-align: center;
 }
 
-
 #logo {
     background-image: url(../images/tree.png);
-    background-position: top;
     padding: 0;
     margin: 0;
     width: 100px;
@@ -34,6 +37,14 @@
     text-align: center;
     padding: 5px;
     position: relative;
+}
+
+#pesquisa {
+    width: max-content; height: max-content;
+}
+
+#b-pesquisa {
+    width: max-content; height: max-content;
 }
 
 
