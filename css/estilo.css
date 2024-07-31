@@ -33,7 +33,7 @@
 
 
 /*****************MAIN*****************/
-.destaques, .produtos, .sobre {
+.destaques, .produtos, .sobre, .contato{
     background: #A27B5C;
     background-image: url(../images/);
     background-position: center;
