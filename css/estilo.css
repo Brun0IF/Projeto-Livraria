@@ -11,10 +11,6 @@
     color: red;
 }
 
-#menu {
-    
-}
-
 
 #logo {
     background-color: #00000000;
@@ -26,7 +22,7 @@
 /*****************NAV*****************/
 #menu {
     background-color: #3F4E4F;
-    
+
 }
 
 
@@ -35,8 +31,7 @@
     background: #A27B5C;
     background-image: url(../images/);
     background-position: center;
-    background-size: 
-}
+    }
 
 
 /*****************FOOTER*****************/
