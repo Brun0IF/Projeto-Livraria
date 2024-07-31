@@ -17,12 +17,10 @@
 
 
 #logo {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     background-image: url(../images/);
-    background-repeat:  no-repeat;
-    background-position: center;
-    width: 350px;
-    height: 350px;
+    width: 100px;
+    height: 100px;
 }
 
 /*****************NAV*****************/
