@@ -1,7 +1,7 @@
 * {
-    margin: ;
-    padding: ;
-    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: content-box;
     font-family: 'Typewriter';
 }
 
@@ -15,13 +15,14 @@
     background-color: #2C3639;
     color: #110b07;
     text-align: center;
-    position: relative;
 }
 
 
 #logo {
-    background-color: #00000000;
-    background-image: url(../images/);
+    background-image: url(../images/tree.png);
+    background-position: top;
+    padding: 0;
+    margin: 0;
     width: 100px;
     height: 100px;
 }
@@ -41,7 +42,14 @@
     background-image: url(../images/);
     background-position: center;
     color: #1A120B;
+    text-align: center;
     }
+
+.area-galeria {
+    align-items: center;
+    justify-content: center;
+    
+}
 
 /*****************FOOTER*****************/
 #rodape {
@@ -55,6 +63,10 @@
     color: #3C2A21;
     text-align: center;
     text-decoration: solid;
+}
+
+img.hover {
+    size: 50px;
 }
 
 
