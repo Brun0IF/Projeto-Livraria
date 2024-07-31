@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Typewriter';
+    letter-spacing: 1px;
 }
+
+@font-face {
+    font-family: 'Typewriter';
+    src: url(../images/fonte/JMH\ Typewriter-Thin.ttf);
+}
+
 /*****************HEADER*****************/
 #topo {
     background-color: #2C3639;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: red;
+    
 }
 
 
@@ -31,6 +37,7 @@
     background: #A27B5C;
     background-image: url(../images/);
     background-position: center;
+    color: #1A120B;
     }
 
 
@@ -42,13 +49,14 @@
 #rodape p {
     font-weight: 900;
     font-size: 50px;
-    color: white;
+    color: #3C2A21;
     text-align: center;
     text-decoration: solid;
 }
 
 a {
     text-decoration: none;
+    color: #1A120B;
 
 }
 
