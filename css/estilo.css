@@ -1,7 +1,8 @@
 * {
     margin: 5px;
     padding: 5px;
-    box-sizing: content-box;
+    box-sizing: border-box;
+    display: flexbox;
     font-family: 'Typewriter';
 }
 
@@ -12,8 +13,8 @@
 
 /*****************HEADER*****************/
 #topo {
-    background-color: #2C3639;
-    color: #110b07;
+    background: rgb(44,54,57);
+    background: linear-gradient(180deg, rgba(44,54,57,1) 0%, rgba(50,76,84,1) 61%, rgba(162,123,92,1) 100%);
     text-align: center;
 }
 
@@ -38,8 +39,8 @@
 
 /*****************MAIN*****************/
 .destaques, .produtos, .sobre, .contato{
-    background: #A27B5C;
-    background-image: url(../images/);
+    background: rgb(162,123,92);
+background: radial-gradient(circle, rgba(162,123,92,1) 64%, rgba(60,42,33,1) 100%);
     background-position: center;
     color: #1A120B;
     text-align: center;
@@ -90,9 +91,6 @@ a.menu:hover {
     font-size: 30px;
 }
 
-a.livro:hover {
-
-}
 
 /*****************PROPRIEDADES DE FONTES*****************/
 /* font-family - altera família de fontes
