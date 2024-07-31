@@ -77,10 +77,13 @@ background: radial-gradient(circle, rgba(162,123,92,1) 64%, rgba(60,42,33,1) 100
     text-align: center;
     }
 
-.area-galeria {
-    align-items: center;
-    justify-content: center;
-    
+
+.produtos tr {
+    background: rgb(220,215,201);
+    background: linear-gradient(180deg, rgba(220,215,201,1) 9%, rgba(220,215,201,0) 89%);   
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+     -moz-box-shadow: 0 6px 6px -6px #0E1119;
+          box-shadow: 0 6px 6px -6px #0E1119;
 }
 
 /*****************FOOTER*****************/
