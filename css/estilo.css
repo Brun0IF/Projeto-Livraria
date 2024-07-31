@@ -1,9 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: ;
+    padding: ;
     box-sizing: border-box;
     font-family: 'Typewriter';
-    letter-spacing: 1px;
 }
 
 @font-face {
@@ -14,7 +13,9 @@
 /*****************HEADER*****************/
 #topo {
     background-color: #2C3639;
-    
+    color: #110b07;
+    text-align: center;
+    position: relative;
 }
 
 
@@ -30,6 +31,7 @@
     background-color: #3F4E4F;
     text-align: center;
     padding: 5px;
+    position: relative;
 }
 
 
@@ -40,7 +42,6 @@
     background-position: center;
     color: #1A120B;
     }
-
 
 /*****************FOOTER*****************/
 #rodape {
@@ -57,6 +58,9 @@
 }
 
 
+li {
+    color: #00000000;
+}
 
 a {
     text-decoration: none;
@@ -64,14 +68,18 @@ a {
 
 }
 
-a:visited {
+a.menu:visited {
     color: #1A120B;;
 }
 
-a:hover {
+a.menu:hover {
     background-color: #1A120B;;
     color: #D5CEA3;
     font-size: 30px;
+}
+
+a.livro:hover {
+
 }
 
 /*****************PROPRIEDADES DE FONTES*****************/
