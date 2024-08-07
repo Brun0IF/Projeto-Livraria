@@ -67,12 +67,16 @@
 
 .barra-pesq input[type=text]{
     background-color: #DCD7C9;
+    margin: 5px;
+    padding: 5px;
 }
 
 .barra-pesq input[type=button] {
-    width: 50px; 
+    width: 30px; height: 30px;
     background-image: url(../images/search.png);
     background-color: #DCD7C9;
+    margin: 5px;
+    padding: 5px;
 }
 
 
