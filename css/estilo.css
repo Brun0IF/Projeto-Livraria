@@ -125,6 +125,16 @@
     
 }
 
+.sobre p, h3, h1, ol, li{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.sobre {
+    display: block;
+}
+
 /*****************FOOTER*****************/
 #rodape {
     background-color: #DCD7C9;
