@@ -36,9 +36,10 @@
     background-image: url(../images/tree.png);
     background-color: #00000000;
     padding: 0;
-    margin-right: 1%;
+    margin-right: 5%;
     width: 100px;
     height: 100px;
+    border-radius: 50px; border: 1px solid rgb(249,242,225);
 }
 
 
@@ -62,7 +63,7 @@
 .barra-pesq {
     width:30% ; 
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .barra-pesq input[type=text]{
@@ -133,6 +134,13 @@
 
 .sobre {
     display: block;
+}
+
+#form {
+    margin: 10% auto;
+    padding: 10px;
+    text-align: center;
+
 }
 
 /*****************FOOTER*****************/
